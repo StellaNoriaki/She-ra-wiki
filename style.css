@@ -1,7 +1,7 @@
 
 body {
     background-image: url(https://i.pinimg.com/originals/b4/ce/36/b4ce36f560e4af907058908fab59e19b.jpg);
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     font-family: "Sora", sans-serif;
  }
@@ -15,6 +15,7 @@ body {
     }
 
 /*logo-----------------------------------------------------------------------------------------------------------------------*/
+
 .logo{
     padding-left: 700px ;
     padding-top: 35px;
@@ -22,13 +23,22 @@ body {
     flex: 1;
     -ms-flex: 1;
 }
+/*lore-------------------------------------------------------------------------------------------------------------------*/
+
 #lore{
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
     background-color: rgba(255, 77, 210, .8);
+    border-radius: 15px;
+    width: 700px;
+    height: 550px;
+    box-sizing: border-box;
+    padding: 50px;
 }
 .lore-content{
+
     text-align: center;
+    text-align: justify;
 
 }
 .lore-logo{
@@ -36,4 +46,28 @@ body {
     font-weight: 800;
 }
 
+/*characters------------------------------------------------------------------------------------------------------------*/
 
+.characters{
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    background-color: rgba(255, 77, 210, .8);
+    border-radius: 15px;
+    width: 700px;
+    height: 550px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+/*creators------------------------------------------------------------------------------------------------------------*/
+
+.creators{
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    background-color: rgba(255, 77, 210, .8);
+    border-radius: 15px;
+    width: 700px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 50px;
+}
