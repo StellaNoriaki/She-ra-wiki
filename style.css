@@ -1,0 +1,39 @@
+
+body {
+    background-image: url(https://i.pinimg.com/originals/b4/ce/36/b4ce36f560e4af907058908fab59e19b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Sora", sans-serif;
+ }
+
+     .container{
+
+        width: min(90vw, 800px);
+    
+        margin: auto;
+        
+    }
+
+/*logo-----------------------------------------------------------------------------------------------------------------------*/
+.logo{
+    padding-left: 700px ;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    flex: 1;
+    -ms-flex: 1;
+}
+#lore{
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    background-color: rgba(255, 77, 210, .8);
+}
+.lore-content{
+    text-align: center;
+
+}
+.lore-logo{
+    text-align: center;
+    font-weight: 800;
+}
+
+
